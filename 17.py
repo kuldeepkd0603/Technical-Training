@@ -1,10 +1,10 @@
-# Find the Largest Digit in a Number
-
+# Find the Smallest Digit in a Number*
 n=int(input("enter number: "))
+s=n
 n=str(n)
-s=0
+
 for i in n:
   i=int(i)
-  if i>s:
+  if i<s:
       s=i
 print(s)
